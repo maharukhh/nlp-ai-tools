@@ -20,54 +20,47 @@ An interactive application designed to help users practice and improve language 
 A lexicon-based sentiment analyzer that classifies text as Positive, Negative, or Neutral, with negation handling (e.g. "not happy" correctly flips to negative).
 * Algorithm: Lexicon-based scoring with negation detection
 * Concepts: Sentiment classification, text tokenization, polarity scoring
-### 6. AI Chatbot
-A rule-based, pattern-matching chatbot in the style of the classic ELIZA program, using regex rules to detect intent and hold a light conversation.
-* Algorithm: Pattern matching (regex rules) with conversational memory
-* Concepts: Dialogue systems, intent detection, rule-based NLP
-### 7. Text Classification Tool
+### 6. Text Classification Tool
 Classifies short text snippets into categories (Sports, Technology, Politics, Entertainment) using a Naive Bayes classifier.
 * Algorithm: TF-IDF + Multinomial Naive Bayes
 * Concepts: Supervised text classification, feature vectorization
-### 8. Machine Translation Tool
+### 7. Machine Translation Tool
 A word-for-word English ↔ Urdu translator using a built-in dictionary lookup, demonstrating the core idea behind lookup-based translation.
 * Algorithm: Dictionary-based word substitution
 * Concepts: Bilingual lookup translation, tokenization
-### 9. Named Entity Recognition (NER) Extractor
+### 8. Named Entity Recognition (NER) Extractor
 Extracts likely dates, organizations, locations, and person/place names from text using regex patterns and capitalization heuristics.
 * Algorithm: Rule-based pattern matching and heuristic classification
 * Concepts: Entity extraction, regex-based information extraction
-### 10. Speech Processing Tool
+### 9. Speech Processing Tool
 A two-way speech tool: converts typed text to spoken audio (Text-to-Speech) and transcribes spoken audio from a microphone into text (Speech-to-Text).
 * Algorithm: Offline TTS engine + cloud-based speech recognition
 * Concepts: Speech synthesis, speech-to-text transcription
-### 11. Question Answering System
+### 10. Question Answering System
 Given a passage and a question, finds the most relevant sentence containing the answer using TF-IDF similarity.
 * Algorithm: TF-IDF + cosine similarity (extractive QA)
 * Concepts: Information retrieval, sentence-level relevance ranking
-### 12. LLM Applications Toolkit
-A wrapper around a Large Language Model API offering ready-made modes: text summarization, tone rewriting, and free-form question answering.
-* Concepts: Prompt engineering, LLM API integration
-### 13. Keyword/Topic Extractor
+### 11. Keyword/Topic Extractor
 Extracts the most important keywords from a document using TF-IDF scoring against a background corpus.
 * Algorithm: TF-IDF keyword scoring
 * Concepts: Keyword extraction, corpus-relative term weighting
-### 14. Fake News / Misinformation Detector (Educational Demo)
+### 12. Fake News / Misinformation Detector (Educational Demo)
 Classifies news headlines as "Likely Real" or "Likely Fake" using a Naive Bayes classifier trained on a small labeled toy dataset.
 * Algorithm: TF-IDF + Multinomial Naive Bayes
 * Concepts: Text classification, misinformation pattern recognition
-### 15. Resume Parser & Analyzer
+### 13. Resume Parser & Analyzer
 Extracts structured information (email, phone, years of experience, skills) from raw resume text using regex and keyword matching.
 * Algorithm: Regex pattern matching + keyword lookup
 * Concepts: Information extraction, structured data parsing
-### 16. Plagiarism / Text Similarity Checker
+### 14. Plagiarism / Text Similarity Checker
 Compares two texts and reports a similarity score using TF-IDF vectors and cosine similarity.
 * Algorithm: TF-IDF + cosine similarity
 * Concepts: Text similarity, duplicate/paraphrase detection
-### 17. AI Story/Poem Generator
+### 15. AI Story/Poem Generator
 Generates original, semi-coherent short text by learning word-transition probabilities from a source text using a Markov chain.
 * Algorithm: Markov chain text generation
 * Concepts: Probabilistic language modeling, generative text
-### 18. Text-Based Emotion Detector
+### 16. Text-Based Emotion Detector
 Detects fine-grained emotions (Joy, Anger, Sadness, Fear, Surprise) in text using built-in emotion word lexicons.
 * Algorithm: Multi-class lexicon-based scoring
 * Concepts: Emotion classification, multi-label text analysis
